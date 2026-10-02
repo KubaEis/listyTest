@@ -34,7 +34,7 @@ void main() {
                     Thread.sleep(1000);
                     list.addFirst(new Zvire(jm,dr,age));
                     System.out.println("Animal added successfully!");
-                    System.out.println("-------------------------");
+                    System.out.println("------------------------");
                     break;
                 case 2:
                     System.out.println("-----ADD ANIMAL (LAST)-----\n");
@@ -49,12 +49,12 @@ void main() {
                     Thread.sleep(1000);
                     list.add(new Zvire(j,d,a));
                     System.out.println("Animal added successfully!");
-                    System.out.println("-------------------------");
+                    System.out.println("------------------------");
                     break;
                 case 3:
                     System.out.println("-----PRINT ALL ANIMALS-----\n");
                     list.printAll();
-                    System.out.println("-------------------------");
+                    System.out.println("------------------------");
                     break;
                 case 4:
                     System.out.println("-----REMOVE FIRST ANIMAL-----\n");
@@ -62,12 +62,12 @@ void main() {
                     Thread.sleep(1000);
                     list.removeFirst();
                     System.out.println("Animal removed successfully!");
-                    System.out.println("-------------------------");
+                    System.out.println("------------------------");
                     break;
                 case 5:
                     System.out.println("-----PRINT ALL ANIMALS OVER 5 YEARS OLD-----\n");
                     list.printAllOverFiveYo();
-                    System.out.println("-------------------------");
+                    System.out.println("------------------------");
                     break;
                 case 6:
                     System.out.println("-----PRINT THE OLDEST ANIMALS-----\n");
@@ -75,7 +75,7 @@ void main() {
                     Thread.sleep(1000);
                     list.printTheOldestAnimal();
                     System.out.println("Animal found successfully!");
-                    System.out.println("-------------------------");
+                    System.out.println("------------------------");
                     break;
             }
         }catch(InputMismatchException e){
